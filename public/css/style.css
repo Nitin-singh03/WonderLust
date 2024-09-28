@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(207, 245, 255);
+    /* margin-left: 1% !important; */
+    overflow-x: hidden;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.main-container{
+    width: 100%;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.container-fluid{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.fa-compass{
+    color: #fe424d;;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.f-info-socials i{
+    font-size: 1.2rem;  
+    margin-right: 1rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    aspect-ratio: 16 / 12;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 ;
+}
+
+.card-text{
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* Container for the listing card */
+.listing-card {
+    background: #ffffff; /* White background for simplicity */
+    border-radius: 8px; /* Rounded corners */
+    /* padding: 20px; */
+    margin: 20px auto;
+    max-width: 600px; /* Maximum width for card */
+    /* min-height: 400px; */
+    display: flex;
+    flex-direction: column; /* Column layout */
+    align-items: center; /* Center items horizontally */
+}
+
+.listing-image {
+    margin-bottom: 20px; /* Space between image and details */
+    max-width: 100%; /* Full width */
+}
+
+.listing-image img {
+    border-radius: 8px; /* Rounded corners for image */
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 15 / 10;
+}
+
+.listing-details {
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+}
+
+.listing-details h3 {
+    margin-top: 0;
+    color: #212529;
+}
+
+.listing-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listing-details ul li {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #212529; /* Dark color for price */
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Column layout for actions */
+    align-items: center; /* Center actions horizontally */
+}
+
+.edit-btn,
+.del-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.edit-btn {
+    background-color: #212529; /* Green for edit */
+}
+
+
+.del-btn {
+    background-color: #fe424d; /* Red for delete */
+}
+
+.del-btn:hover {
+    background-color: #e03e3e;
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 95% !important;
+    }
+}
